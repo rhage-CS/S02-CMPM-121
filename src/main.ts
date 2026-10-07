@@ -25,11 +25,11 @@ const counterElement = document.getElementById("counter")!;
 
 button.addEventListener("click", () => {
   const hue = Math.floor(Math.random() * 360);
-  // This looks like to a good place to add some logic!
+  // This looks like to a good place to add some logic! Ya logic!
   counter += 1;
   counterElement.textContent = counter.toString();
 
   document.body.style.backgroundColor = `rgb(${hue}, ${hue}, ${hue})`;
-  console.log(hue);
+  //console.log(hue);
   console.log("I have these thingies:", button, counterElement, counter);
 });
